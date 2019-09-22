@@ -1,6 +1,11 @@
 
-Models
-
+Saved_models
+data
+checkpoint
+bagging2.py
+Drawer
+*.pth
+*.tar
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

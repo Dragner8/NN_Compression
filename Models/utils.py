@@ -8,7 +8,7 @@ class MyReLU(torch.autograd.Function):
     def forward(ctx, input):
 
         ctx.save_for_backward(input)
-        if True:
+        if False:
             from Quantizer.utils import linear_tensor_quant, fixed_point_tensor_quant
             input = input.cpu().numpy()
             input=fixed_point_tensor_quant(input,4)
